@@ -28,9 +28,9 @@ public class HelloWorld {
 	    System.out.println("Request received from: " + t.getRemoteAddress().toString());
 
 	    // Displaying Hello message
-	    String hello = "Hello Criteo !!";
+	    String hello = "Hello World !!";
 	    String lang = env.get("HELLO_LANG");
-	    if (lang != null && lang.equals("FR")) {
+	    if (lang != null && lang.equals("US")) {
 		hello = "Bonjour Criteo !!";
 	    }
             String response = "<html><body><h1>" + hello + "</h1>\n";
